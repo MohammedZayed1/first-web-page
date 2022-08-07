@@ -1,0 +1,155 @@
+html{
+    background-color: #eee;
+}
+
+header{
+    background-color:#eee;
+    top: 0px;
+    position: fixed;
+    width: 100% 
+}
+
+#header-img{
+    width: 300px;
+    padding: 15px;
+}
+
+#nav-bar{
+    float: right;
+}
+
+#nav-bar li{
+    display: inline;
+    padding-right: 120px;
+}
+
+#nav-bar a{
+    color: black;
+    text-decoration:none;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form #email{
+    width: 250px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+form #submit{
+    background-color: #f1c40f;
+    width: 120px;
+    height: 25px;
+    margin-bottom: 70px;
+}
+
+h2{
+    margin: 0px;
+    padding-left: 600px;
+    text-align: left;
+
+}
+
+p{
+    width: 700px;
+    font-size: large;
+    margin: 0px;
+    padding-left: 600px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.video{
+    padding-left: 620px;
+    padding-top: 50px;
+}
+
+#video{
+    width: 550px;
+    height: 300px;
+}
+
+.pricing{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.pricing li{
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    width: 200px;
+    padding-top: 10px;
+    
+}
+
+.pricing ul{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px 50px 10px 50px;
+}
+
+h3{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 300px;
+    text-transform: uppercase;
+}
+
+#select{
+    background-color: #f1c40f;
+    width: 90px;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+
+footer{
+    background-color: #ddd;
+    padding: 20px 200px 20px 200px;
+    margin-top: 30px;    
+}
+
+footer ul{
+    list-style-type: none;
+    text-align: right;
+
+}
+
+footer li{
+    display: inline;
+    text-align: right;
+    list-style: none;
+    justify-content: center;
+    padding-right: 30px;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer div{
+    text-align: right;
+    padding-right: 30px;
+}
